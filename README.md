@@ -3,8 +3,7 @@ Raspberry Pi Pico PWM Audio Project
 
 This code goes with a YouTube video which demonstrates PWM audio out with a simple cicruit on a raspberry pi pico. 
 
-
-
+https://youtu.be/rwPTpMuvSXg
 
 ## Building
 
