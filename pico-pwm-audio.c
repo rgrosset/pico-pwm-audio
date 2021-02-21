@@ -12,7 +12,7 @@
  * if you want to know how to make these please see the python code
  * for converting audio samples into static arrays. 
  */
-#include "robin_sample.h"
+#include "sample.h"
 int wav_position = 0;
 
 /*
