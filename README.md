@@ -11,7 +11,7 @@ This code goes with a YouTube video which demonstrates PWM audio out with a simp
 
 ### Sync 
 ```
-git clone git@github.com:rgrosset/pico-pwm-audio.git
+git clone https://github.com/rgrosset/pico-pwm-audio.git
 ```
 
 ### Make 
