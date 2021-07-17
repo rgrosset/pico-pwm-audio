@@ -24,3 +24,31 @@ make
 ```
 
 Then copy pico-pwm-audio.uf2 to your Raspberry Pi Pico!
+
+## Using the Audito Converter Notebook. 
+
+The conventer is a Jupyter Notebook so you need to install Jupyter Notebooks for this to work. 
+
+### Installing 
+First you need a working install of Python preferably a 3.x verson. To install python if you don't have it already go here https://www.python.org/downloads/
+Second you need *pip* which is the python package manager, install this using the following
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
+
+Next you need to install Jupyter Notebooks you can find instructions and many ways to install here https://jupyter.org/install my favoured way to do this is simply
+```
+pip install notebook
+```
+
+Then launch the notebook user interface by issues this command in the same folder as the converter. 
+
+```
+jupyter notebook
+```
+
+The notebook itself is pretty self explanatory. Each run each cell in order the final cell will create a data array that you can copy and paste into your for your project. It will convert from WAV file to mono 11Khz data which you can then use in your projects! 
+
+
+Have fun! Let me know if you have any feedback or questions. 
