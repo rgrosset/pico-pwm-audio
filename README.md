@@ -38,6 +38,14 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
+* Install the notebook dependancies. These are the python libraries the notebook needs to run. 
+```
+pip install soundfile 
+pip install matplotlib
+pip install samplerate
+```
+
+
 * Next you need to install Jupyter Notebooks you can find instructions and many ways to install here https://jupyter.org/install my favoured way to do this is simply
 ```
 pip install notebook
