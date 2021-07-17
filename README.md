@@ -30,20 +30,20 @@ Then copy pico-pwm-audio.uf2 to your Raspberry Pi Pico!
 The conventer is a Jupyter Notebook so you need to install Jupyter Notebooks for this to work. 
 
 ### Installing 
-*First you need a working install of Python preferably a 3.x verson. To install python if you don't have it already go here https://www.python.org/downloads/
+* First you need a working install of Python preferably a 3.x verson. To install python if you don't have it already go here https://www.python.org/downloads/
 
-*Second you need *pip* which is the python package manager, install this using the following
+* Second you need *pip* which is the python package manager, install this using the following
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-*Next you need to install Jupyter Notebooks you can find instructions and many ways to install here https://jupyter.org/install my favoured way to do this is simply
+* Next you need to install Jupyter Notebooks you can find instructions and many ways to install here https://jupyter.org/install my favoured way to do this is simply
 ```
 pip install notebook
 ```
 
-*Then launch the notebook user interface by issueing this command in the same folder as this project. Open the notebook file in the user interface.  
+* Then launch the notebook user interface by issueing this command in the same folder as this project. Open the notebook file in the user interface.  
 
 ```
 jupyter notebook
