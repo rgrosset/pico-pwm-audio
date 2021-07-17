@@ -27,7 +27,7 @@ Then copy pico-pwm-audio.uf2 to your Raspberry Pi Pico!
 
 ## Using the Audito Converter Notebook. 
 
-The conventer is a Jupyter Notebook so you need to install Jupyter Notebooks for this to work. These instructions will work on MacOS and Linux systems for Windows systems the proess is the same simply follow instructions to install Python and related items for that platform. 
+The conventer is a Jupyter Notebook so you need to install Jupyter Notebooks for this to work. These instructions work on MacOS and Linux.  For Windows the proess is the same simply follow instructions to install Python and related items for that platform. 
 
 ### Installing 
 * First you need a working install of Python preferably a 3.x verson. To install python if you don't have it already go here https://www.python.org/downloads/
