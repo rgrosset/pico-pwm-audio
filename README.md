@@ -51,13 +51,14 @@ pip install samplerate
 pip install notebook
 ```
 
-* Then launch the notebook user interface by issueing this command in the same folder as this project. Open the notebook file in the user interface.  
+### Usage guide 
+Launch the notebook user interface by issueing the command below in the same folder as this project. This will open the Jupyter user interface. Open the notebook file in the user interface.  
 
 ```
 jupyter notebook
 ```
 
-The notebook itself is fairly self explanatory. Run each cell in order. The final cell will create a data array that you can copy and paste into your for your project. It will convert from WAV file to mono 11Khz data which you can then use in your projects! 
+The notebook itself is fairly self explanatory. Run each cell in order using the run buttons in the UI. The final cell will create a data array that you can copy and paste into your project. The notebook is configured to convert just about any WAV file to a mono 11Khz data which you can then use in your projects! 
 
 
 Have fun! Let me know if you have any feedback or questions. 
