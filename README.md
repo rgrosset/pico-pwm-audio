@@ -25,6 +25,22 @@ make
 
 Then copy pico-pwm-audio.uf2 to your Raspberry Pi Pico!
 
+
+## The Circuit
+The circuit is based on the [reference design from the raspberry-pi-foundation](https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf#page=24).
+We will just need one channel and the connector, as well as the logic buffer, is up to you.
+
+![circuit-diagram](circuit-diagram.png)
+
+You will need:
+- 1.8 kΩ resistor
+- 220 Ω resistor
+- 100 Ω resistor
+- 100 µF capacitor
+- 47 µF capacitor
+- an Audiojack
+
+
 ## Using the Audito Converter Notebook. 
 
 The conventer is a Jupyter Notebook so you need to install Jupyter Notebooks for this to work. These instructions work on MacOS and Linux.  For Windows the proess is the same simply follow instructions to install Python and related items for that platform. 
