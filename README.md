@@ -36,7 +36,7 @@ You will need:
 - 1.8 kΩ resistor
 - 220 Ω resistor
 - 100 Ω resistor
-- 100 µF capacitor
+- 100 nF capacitor
 - 47 µF capacitor
 - an Audiojack
 
